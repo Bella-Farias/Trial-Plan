@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Isabella Farias" />
+    <meta name="description" content="formulário" />
+    <meta name="keywords" content="input, radio, checkbox" />
+    <link rel="stylesheet" href="/Projeto 5/style.css" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <header class="header">
+      <form>
+        <h1>Chose a trial plan</h1>
+
+        <div class="plan">
+          <input type="radio" name="plan" value="standard" required />
+          <label>Standard</label>
+          <p>
+            5 TB of space with easy-to-use team management and collaboration
+            tools.
+          </p>
+        </div>
+
+        <div class="plan-2">
+          <input type="radio" name="plan" value="advanced" required />
+          <label>Advanced</label>
+          <p>
+            As much space as yout team needs with sophisticated admin, audit,
+            securty and integration capabilities.
+          </p>
+        </div>
+
+        <div class="agree">
+          <input type="checkbox" name="intem-1" value="agree" required />
+          <label
+            >I agree to the <a href="#">Agreement and Terms</a> Find out more
+            about how we use and protect your data in our
+            <a href="#">Privacy Policy</a>.</label
+          >
+        </div>
+
+        <div class="receive">
+          <input type="checkbox" name="intem-2" value="receive" />
+          <label>I's like to receive direct marketing email uptades.</label>
+        </div>
+
+        <button type="submit">Start free trial</button>
+
+        <h3>No credit card needed</h3>
+      </form>
+    </header>
+  </body>
+</html>

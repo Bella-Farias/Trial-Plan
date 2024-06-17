@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #e8f5f4, #a7b1b1);
+}
+
+.header {
+  display: flex;
+  width: min(500px, 60%);
+  margin: auto;
+  margin-top: 3.54%;
+  margin-bottom: 3.5%;
+  padding: 60px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 0 4px rgb(0 0 0 / 0.1);
+}
+
+h1 {
+  margin-top: -1%;
+}
+
+.plan {
+  padding: 8px;
+  margin-bottom: 5%;
+  background: #e8f5f4;
+  border: black solid 1px;
+  border-radius: 10px;
+}
+.plan label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.plan p {
+  font-size: 13.5px;
+  font-weight: 600;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.plan input[type="radio"] {
+  appearance: none;
+
+  border: solid black 1px;
+  border-radius: 50%;
+  padding: 8px;
+}
+.plan input[type="radio"]:checked {
+  background-image: radial-gradient(white 38%, black 40%);
+}
+.plan:not(:has(:checked)) {
+  opacity: 0.6;
+}
+
+.plan-2 {
+  padding: 8px;
+  margin-bottom: 8px;
+  background: #e8f5f4;
+  border: black solid 1px;
+  border-radius: 10px;
+}
+.plan-2 label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.plan-2 p {
+  font-size: 13.5px;
+  font-weight: 600;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.plan-2 input[type="radio"] {
+  appearance: none;
+
+  border: solid black 1px;
+  border-radius: 50%;
+  padding: 8px;
+}
+.plan-2 input[type="radio"]:checked {
+  background-image: radial-gradient(white 38%, black 40%);
+}
+.plan-2:not(:has(:checked)) {
+  opacity: 0.6;
+}
+
+.agree {
+  margin-top: 8%;
+  display: flex;
+  gap: 2px;
+  padding-inline: 9px;
+}
+.agree label {
+  font-size: 14.5px;
+  font-weight: 600;
+}
+.agree input[type="checkbox"] {
+  appearance: none;
+  flex-shrink: 0;
+    
+
+  border: solid black 1px;
+  border-radius: 5px;
+  width: 18.2px;
+  height: 18.2px;
+}
+.agree input[type="checkbox"]:checked::before {
+  content: "✔";
+
+  font-size: 17px;
+  position: relative;
+  top: -3.5px;
+  left: 2px;
+}
+
+.receive {
+  margin-top: 8%;
+  display: flex;
+  gap: 2px;
+  padding-inline: 9px;
+}
+.receive label {
+  font-size: 14.5px;
+  font-weight: 600;
+}
+.receive input[type="checkbox"] {
+  appearance: none;
+  flex-shrink: 0;
+
+  border: black solid 1px;
+  border-radius: 5px;
+  width: 18.2px;
+  height: 18.2px;
+}
+.receive input[type="checkbox"]:checked::before {
+  content: "✔";
+
+  font-size: 17px;
+  position: relative;
+  top: -3.5px;
+  left: 2px;
+}
+
+button {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 10%;
+  width: 100%;
+  background: black;
+  color: white;
+  cursor: pointer;
+  padding: 9px;
+}
+button:hover {
+  color: black;
+  background: #dbe8e7;
+  box-shadow: black 1px 1px 7px;
+}
+
+h3 {
+  margin-top: 8%;
+  text-align: center;
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 770px) {
+  .header {
+    display: flex;
+    width: min(550px, 90%);
+    margin: auto;
+    margin-top: 3.54%;
+    margin-bottom: 3.5%;
+    padding: 60px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 0 4px rgb(0 0 0 / 0.1);
+  }
+}
