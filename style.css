@@ -4,6 +4,7 @@
 
 body {
   background: linear-gradient(to bottom, #e8f5f4, #a7b1b1);
+  height: 100vh;
 }
 
 .header {
