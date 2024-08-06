@@ -4,13 +4,13 @@
 
 body {
   background: linear-gradient(to bottom, #e8f5f4, #a7b1b1);
-  height: 100vh;
+  height: 90vh;
 }
 
 .header {
   display: flex;
   width: min(500px, 60%);
-  height: 70vh;
+  height: 85vh;
   margin: auto;
   padding: 60px;
   border-radius: 20px;
