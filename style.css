@@ -11,8 +11,6 @@ body {
   display: flex;
   width: min(500px, 60%);
   margin: auto;
-  margin-top: 3.54%;
-  margin-bottom: 3.5%;
   padding: 60px;
   border-radius: 20px;
   background: white;
